@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MZz1gsEARMADkz3rO7Y/gofGPz5yGf8rvdk50CG6o5k=",
+  "Source": "IdService.WebApi",
+  "BasePath": "_content/IdService.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
