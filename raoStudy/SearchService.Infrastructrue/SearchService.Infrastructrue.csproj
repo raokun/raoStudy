@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdService.DomainService\IdService.DomainService.csproj" />
+    <ProjectReference Include="..\raok.Common\Raok.Common.csproj" />
+    <ProjectReference Include="..\SearchService.Domain\SearchService.Domain.csproj" />
+	  <PackageReference Include="NEST" Version="7.16.0" />
+  </ItemGroup>
+
+</Project>

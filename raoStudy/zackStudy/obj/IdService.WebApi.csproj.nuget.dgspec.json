@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\zackStudy\\zackStudy\\IdService.WebApi.csproj": {}
+    "E:\\git\\MyGitHubRes\\raoStudy\\zackStudy\\IdService.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\IdService.DomainService.csproj": {
+    "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\IdService.DomainService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\IdService.DomainService.csproj",
+        "projectUniqueName": "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\IdService.DomainService.csproj",
         "projectName": "IdService.DomainService",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\IdService.DomainService.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\obj\\",
+        "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\IdService.DomainService.csproj",
+        "packagesPath": "C:\\Users\\86186\\.nuget\\packages\\",
+        "outputPath": "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\86186\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -35,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj"
+              "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj": {
+                "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj"
               }
             }
           }
@@ -72,28 +71,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj": {
+    "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj",
+        "projectUniqueName": "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj",
         "projectName": "Raok.Common",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\obj\\",
+        "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj",
+        "packagesPath": "C:\\Users\\86186\\.nuget\\packages\\",
+        "outputPath": "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\86186\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -122,6 +120,10 @@
             "AsmResolver.DotNet": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -171,28 +173,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\zackStudy\\zackStudy\\IdService.WebApi.csproj": {
+    "E:\\git\\MyGitHubRes\\raoStudy\\zackStudy\\IdService.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\zackStudy\\IdService.WebApi.csproj",
+        "projectUniqueName": "E:\\git\\MyGitHubRes\\raoStudy\\zackStudy\\IdService.WebApi.csproj",
         "projectName": "IdService.WebApi",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\zackStudy\\IdService.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\zackStudy\\obj\\",
+        "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\zackStudy\\IdService.WebApi.csproj",
+        "packagesPath": "C:\\Users\\86186\\.nuget\\packages\\",
+        "outputPath": "E:\\git\\MyGitHubRes\\raoStudy\\zackStudy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\86186\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -206,11 +207,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\IdService.DomainService.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\IdService.DomainService\\IdService.DomainService.csproj"
+              "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\IdService.DomainService.csproj": {
+                "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\IdService.DomainService\\IdService.DomainService.csproj"
               },
-              "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\zackStudy\\raok.Common\\Raok.Common.csproj"
+              "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj": {
+                "projectPath": "E:\\git\\MyGitHubRes\\raoStudy\\raok.Common\\Raok.Common.csproj"
               }
             }
           }
@@ -259,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
