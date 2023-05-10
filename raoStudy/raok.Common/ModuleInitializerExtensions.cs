@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Raok.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +7,10 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raok.Common
-{
+namespace Raok.Common {
     public static class ModuleInitializerExtensions
     {
-        public static IServiceCollection RunModuleInitializerExtensions(this ServiceCollection services,IEnumerable<Assembly> assemblies)
+        public static IServiceCollection RunModuleInitializerExtensions(this IServiceCollection services,IEnumerable<Assembly> assemblies)
         {
             foreach (Assembly assembly in assemblies)
             {

@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\raok.Common\Raok.Common.csproj" />
+    <ProjectReference Include="..\Raok.JWT\Raok.JWT.csproj" />
   </ItemGroup>
 
 </Project>

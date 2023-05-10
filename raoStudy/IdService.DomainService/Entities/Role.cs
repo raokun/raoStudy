@@ -10,6 +10,7 @@ namespace IdService.DomainService.Entities
 {
     public class Role : IdentityRole<Guid>
     {
+        public bool IsAdmin { get; set; }
         public Role()
         {
             this.Id = Guid.NewGuid();
