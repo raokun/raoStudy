@@ -2,8 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace raok.Common
-{
+namespace raok.Infrastructure {
     public static class EFCoreInitHelper
     {
         public static IServiceCollection AddAllDbContexts(this IServiceCollection services, Action<DbContextOptionsBuilder> builder, IEnumerable<Assembly> assemblies)

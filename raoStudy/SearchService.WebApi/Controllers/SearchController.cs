@@ -20,7 +20,11 @@ namespace SearchService.WebApi.Controllers
         {
             return  searchRepository.SearchDemoObjs(form.Keyword,form.PageIndex,form.PageSize);
         }
-
+        [HttpPost]
+        public async Task<ActionResult> addDemoObj(DemoObj obj) {
+            await searchRepository.UpdateAsync(obj);
+            return Ok();
+        }
 
     }
 }

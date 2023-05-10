@@ -368,3 +368,4 @@ raoStudy/.vs/
 **/bin/Debug/
 raoStudy/IdService.DomainService/obj/Debug/
 raoStudy/IdService.DomainService/bin/Debug/
+*.cache

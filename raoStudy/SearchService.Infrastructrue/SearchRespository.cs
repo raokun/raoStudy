@@ -62,7 +62,8 @@ namespace SearchService.Infrastructrue
 
         public async Task UpdateAsync(DemoObj obj)
         {
-            var res =await elasticClient.IndexAsync(obj, idx => idx.Index(keyStr).Id(obj.ObjId));
+            //var res =await elasticClient.IndexAsync(obj, idx => idx.Index(keyStr).Id(obj.ObjId));
+            var res = await elasticClient.CreateAsync(obj, idx => idx.Index(keyStr).Id(obj.ObjId));
             if (!res.IsValid)
             {
                 throw new ApplicationException(res.DebugInformation);

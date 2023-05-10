@@ -4,19 +4,27 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+    <UserSecretsId>6c88d3c5-c3c9-46d3-9c75-2851c57c2670</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="FluentValidation" Version="11.5.1" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.96" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\IdService.DomainService\IdService.DomainService.csproj" />
+    <ProjectReference Include="..\IdService.Infrastructure\IdService.Infrastructure.csproj" />
+    <ProjectReference Include="..\Raok.CommonInitializer\Raok.CommonInitializer.csproj" />
     <ProjectReference Include="..\raok.Common\Raok.Common.csproj" />
   </ItemGroup>
 

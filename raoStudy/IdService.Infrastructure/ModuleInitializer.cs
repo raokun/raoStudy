@@ -14,6 +14,7 @@ namespace IdService.Infrastructure
     {
         public void Initialize(IServiceCollection services)
         {
+            services.AddScoped<IdDomainservice>();
             services.AddScoped<IIdRespository,IdRepository>();
         }
     }

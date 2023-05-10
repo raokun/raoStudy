@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+	  <PackageReference Include="nacos-sdk-csharp" Version="1.3.4" />
+	  <PackageReference Include="nacos-sdk-csharp.AspNetCore" Version="1.3.4" />
+	  <PackageReference Include="nacos-sdk-csharp.Extensions.Configuration" Version="1.3.4" />
+	  <PackageReference Include="nacos-sdk-csharp.IniParser" Version="1.3.4" />
+	  <PackageReference Include="nacos-sdk-csharp.YamlParser" Version="1.3.4" />
+	  <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+	  <PackageReference Include="StackExchange.Redis" Version="2.6.96" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\raok.Common\Raok.Common.csproj" />
+    <ProjectReference Include="..\Raok.Infrastructure\Raok.Infrastructure.csproj" />
+    <ProjectReference Include="..\Raok.JWT\Raok.JWT.csproj" />
+  </ItemGroup>
+
+</Project>

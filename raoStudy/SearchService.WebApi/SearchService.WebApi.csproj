@@ -12,9 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IdService.Infrastructure\IdService.Infrastructure.csproj" />
+    <ProjectReference Include="..\Raok.CommonInitializer\Raok.CommonInitializer.csproj" />
     <ProjectReference Include="..\raok.Common\Raok.Common.csproj" />
     <ProjectReference Include="..\SearchService.Domain\SearchService.Domain.csproj" />
+    <ProjectReference Include="..\SearchService.Infrastructrue\SearchService.Infrastructrue.csproj" />
   </ItemGroup>
 
 </Project>
